@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hai div{
+        
+            border: 2px solid darksalmon;
+            /* font-weight: bold; */
+            /* font-style: italic; */
+            padding: 10px;
+            margin: 10px;
+           
+            align-content:space-around;
+            width: 100px;
+        }
+        .hai{
+            display: flex;
+             flex-direction:row; 
+             /* height: 500px;  */
+            /* align-items: flex-start;  */
+
+        }
+        .div1{
+            /* align-self: flex-start; */
+            /* flex-grow: 3; */
+            flex-shrink: 0;
+            /* order: 2; */
+        }
+        .div2{
+            /* align-self: center; */
+            /* flex-grow: 0; */
+            flex-shrink: 1;
+            /* order: 1; */
+        }
+        .div3{
+            /* align-self: stretch; */
+            /* flex-grow: 10; */
+            flex-shrink: 1;
+            /* order: 0; */
+        }
+    </style>
+</head>
+<body>
+    <div class="hai">
+        <div class="div1">a</div>
+        <div class="div2">b</div>
+        <div class="div3">c</div>
+    </div>
+</body>
+</html>
